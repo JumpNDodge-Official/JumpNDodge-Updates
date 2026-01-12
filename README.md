@@ -1,243 +1,230 @@
-Changelog – JumpNDodge
-Version 1.3.1
-New Content
+ 📜 Changelog – JumpNDodge
 
-Added a new Top Hat cosmetic
+## Version 1.3.1
 
-Encoded .json save files to make cheating almost impossible
+### New Content
 
-Bug Fixes
+* Added a new **Top Hat** cosmetic
+* Encoded `.json` save files to make cheating almost impossible
 
-Fixed button hitbox alignment in the settings menu
+### Bug Fixes
 
-Changed Mythic rarity color to orange
+* Fixed button hitbox alignment in the settings menu
+* Changed Mythic rarity color to **orange**
+* Various UI fixes
 
-Various UI fixes
+---
 
-Version 1.3.0 — The Echoing Update (Sound Update)
-Audio
+## Version 1.3.0 — *The Echoing Update* (Sound Update)
 
-Added sound system to the game
+### Audio
 
-Support for custom sound packs
+* Added sound system to the game
+* Support for **custom sound packs**
+* Includes a pre-made *The Legend of Zelda* themed sound pack
+* Individual sound volume control and mute options
 
-Includes a pre-made The Legend of Zelda themed sound pack
+### Exploit Fix
 
-Individual sound volume control and mute options
+* Fixed **Recovery coin exploit**
 
-Exploit Fix
+  * Coins are only rewarded if:
 
-Fixed Recovery coin exploit
+    * Survive at least **10s**
+    * **15s on Hard mode**
+  * No coins rewarded on Easy & Medium mode
 
-Coins are only rewarded if:
+---
 
-Survive at least 10s
+## Hotfix — Version 1.2.95
 
-15s on Hard mode
+### Fixes
 
-No coins rewarded on Easy & Medium mode
+* Fixed missing Phoenix cooldown display
+* Phoenix revive invincibility nerfed (**4s → 2s**)
 
-Hotfix — Version 1.2.95
-Fixes
+---
 
-Fixed missing Phoenix cooldown display
+## Version 1.2.95 — *New Role & Bugfixes*
 
-Phoenix revive invincibility nerfed (4s → 2s)
+### Roles
 
-Version 1.2.95 — New Role & Bugfixes
-Roles
+* Added new rarity: **Mythic** (0.5%)
+* Added new Mythic role: **Phoenix**
 
-Added new rarity: Mythic (0.5%)
+  * Passive revival on death
+  * Extra effects
+  * 2-minute cooldown
 
-Added new Mythic role: Phoenix
+### Cosmetic Shop
 
-Passive revival on death
+* Fixed cosmetic translations
+* Added **Crown** cosmetic (2500 Coins)
+* UI improvements
 
-Extra effects
+### Balancing
 
-2-minute cooldown
+* **Nuke:** Destroys all nearby enemies for 4 seconds
+* **Time Stop:** Now slows time after freeze
 
-Cosmetic Shop
+### Bug Fixes
 
-Fixed cosmetic translations
+* Translation issues fixed
+* Reduced terminal debug spam
+* Fixed text overflowing textboxes
 
-Added Crown cosmetic (2500 Coins)
+---
 
-UI improvements
+## Version 1.2.9 — *Fullscreen Beta & Language Expansion*
 
-Balancing
+### Custom Languages
 
-Nuke: Destroys all nearby enemies for 4 seconds
+* Expanded support: `Custom-1.txt` → `Custom-10.txt`
+* Improved loading & error handling
+* New **Export Language** button (saves to Desktop)
 
-Time Stop: Now slows time after freeze
+### UI & Settings
 
-Bug Fixes
+* Cleaner layout
+* Improved Dark Mode behavior
 
-Translation issues fixed
+### Fullscreen Mode (BETA)
 
-Reduced terminal debug spam
+* Reworked fullscreen scaling
+* Fixed mouse position mapping
+* Minor scaling issues may still occur
 
-Fixed text overflowing textboxes
+### Stability
 
-Version 1.2.9 — Fullscreen Beta & Language Expansion
-Custom Languages
+* Improved display initialization
+* Better fallback behavior
+* Improved debug logging
 
-Expanded support: Custom-1.txt → Custom-10.txt
+---
 
-Improved loading & error handling
+## Version 1.2.8 — *Language Expansion Update*
 
-New Export Language button (saves to Desktop)
+### Custom Languages
 
-UI & Settings
+* Added support for `Custom-1.txt` to `Custom-3.txt`
+* `key=value` format for instant in-game usage
+* Designed for fan translations and community localizations
 
-Cleaner layout
+### Statistics
 
-Improved Dark Mode behavior
+* Reworked statistics UI
+* Added new stats
+* Cleaner overall design
 
-Fullscreen Mode (BETA)
+### Bug Fixes & Improvements
 
-Reworked fullscreen scaling
+* Fixed UI issues in Light/Dark Mode
+* Improved `resource_path` reliability
+* Fixed Daily Rewards and translation issues
+* Better error handling for custom language files
 
-Fixed mouse position mapping
+---
 
-Minor scaling issues may still occur
+## Version 1.2.6 — *Cosmetic Trails Update*
 
-Stability
+### New Content
 
-Improved display initialization
+* Added cosmetic trails:
 
-Better fallback behavior
+  * Fire Trail (may be buggy in menu)
+  * Ice Trail
+  * Shadow Trail
+  * Sparkle Trail
+* Available in Inventory & Shop
 
-Improved debug logging
+### Localization
 
-Version 1.2.8 — Language Expansion Update
-Custom Languages
+* Updated all languages (DE / EN / RU / TR / CH)
+* Added translations for new trails
+* Fixed minor text issues
 
-Added support for Custom-1.txt to Custom-3.txt
+### Core Fixes
 
-key=value format for instant in-game usage
+* Cleaned up `resource_path`
+* Removed duplicate paths
+* Improved error handling
 
-Designed for fan translations and community localizations
+---
 
-Statistics
+## Version 1.2.1
 
-Reworked statistics UI
+### Improvements
 
-Added new stats
+* Scroll support added to some menus
+* Improved power descriptions
+* Fixed light mode textures
 
-Cleaner overall design
+---
 
-Bug Fixes & Improvements
+## Version 1.2.0 — *Daily Rewards & Dark Mode Update*
 
-Fixed UI issues in Light/Dark Mode
+### New Features
 
-Improved resource_path reliability
+* **Daily Rewards system** (internet required, resets at 00:00 CET)
+* **Dark Mode** toggle
 
-Fixed Daily Rewards and translation issues
+### UI & Design
 
-Better error handling for custom language files
+* Refreshed menu design
+* Added loading screen for long actions
 
-Version 1.2.6 — Cosmetic Trails Update
-New Content
+### Improvements
 
-Added cosmetic trails:
+* Statistics menu reworked
+* Achievements now reward coins
+* Localization fixes
 
-Fire Trail (may be buggy in menu)
+---
 
-Ice Trail
+## Version 1.1.03
 
-Shadow Trail
+### Changes
 
-Sparkle Trail
+* Renamed **Jump'n'dodge** → **JumpNDodge** in menu
+* Minor fixes
 
-Available in Inventory & Shop
+---
 
-Localization
+## Version 1.1.0 — *The Visual Update*
 
-Updated all languages (DE / EN / RU / TR / CH)
+### Visuals
 
-Added translations for new trails
+* Full texture redesign
 
-Fixed minor text issues
+### Fixes & Features
 
-Core Fixes
+* Fixed slow-motion glitch
+* Added **Inventory – All Tab**
+* Various minor improvements
 
-Cleaned up resource_path
+---
 
-Removed duplicate paths
+## Version 1.0.41
 
-Improved error handling
+### Changes
 
-Version 1.2.1
-Improvements
+* Renamed **Jump'n'dodge** → **JumpNDodge** in main menu
 
-Scroll support added to some menus
+---
 
-Improved power descriptions
+## Version 1.0.4
 
-Fixed light mode textures
+### Changes
 
-Version 1.2.0 — Daily Rewards & Dark Mode Update
-New Features
+* Cleaned up main menu
+* Added **Help** button
 
-Daily Rewards system (internet required, resets at 00:00 CET)
+### Help System
 
-Dark Mode toggle
+* Instructions loaded from AppData text files
+* Language-based files (`README_DE.txt`, `README_EN.txt`)
+* Editable via any text editor
+* Placeholder shown if language file is missing
+* More languages planned
 
-UI & Design
-
-Refreshed menu design
-
-Added loading screen for long actions
-
-Improvements
-
-Statistics menu reworked
-
-Achievements now reward coins
-
-Localization fixes
-
-Version 1.1.03
-Changes
-
-Renamed Jump'n'dodge → JumpNDodge in menu
-
-Minor fixes
-
-Version 1.1.0 — The Visual Update
-Visuals
-
-Full texture redesign
-
-Fixes & Features
-
-Fixed slow-motion glitch
-
-Added Inventory – All Tab
-
-Various minor improvements
-
-Version 1.0.41
-Changes
-
-Renamed Jump'n'dodge → JumpNDodge in main menu
-
-Version 1.0.4
-Changes
-
-Cleaned up main menu
-
-Added Help button
-
-Help System
-
-Instructions loaded from AppData text files
-
-Language-based files (README_DE.txt, README_EN.txt)
-
-Editable via any text editor
-
-Placeholder shown if language file is missing
-
-More languages planned
+---
