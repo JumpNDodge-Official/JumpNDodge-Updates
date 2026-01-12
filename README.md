@@ -1,6 +1,6 @@
  📜 Changelog – JumpNDodge
 
-## Version 1.3.1
+## Version 0.3.1
 
 ### New Content
 
@@ -15,7 +15,7 @@
 
 ---
 
-## Version 1.3.0 — *The Echoing Update* (Sound Update)
+## Version 0.3.0 — *The Echoing Update* (Sound Update)
 
 ### Audio
 
@@ -36,7 +36,7 @@
 
 ---
 
-## Hotfix — Version 1.2.95
+## Hotfix — Version 0.2.95
 
 ### Fixes
 
@@ -45,7 +45,7 @@
 
 ---
 
-## Version 1.2.95 — *New Role & Bugfixes*
+## Version 0.2.95 — *New Role & Bugfixes*
 
 ### Roles
 
@@ -75,7 +75,7 @@
 
 ---
 
-## Version 1.2.9 — *Fullscreen Beta & Language Expansion*
+## Version 0.2.9 — *Fullscreen Beta & Language Expansion*
 
 ### Custom Languages
 
@@ -102,7 +102,7 @@
 
 ---
 
-## Version 1.2.8 — *Language Expansion Update*
+## Version 0.2.8 — *Language Expansion Update*
 
 ### Custom Languages
 
@@ -125,7 +125,7 @@
 
 ---
 
-## Version 1.2.6 — *Cosmetic Trails Update*
+## Version 0.2.6 — *Cosmetic Trails Update*
 
 ### New Content
 
@@ -151,7 +151,7 @@
 
 ---
 
-## Version 1.2.1
+## Version 0.2.1
 
 ### Improvements
 
@@ -181,7 +181,7 @@
 
 ---
 
-## Version 1.1.03
+## Version 0.1.6
 
 ### Changes
 
@@ -190,7 +190,7 @@
 
 ---
 
-## Version 1.1.0 — *The Visual Update*
+## Version 0.1.5 — *The Visual Update*
 
 ### Visuals
 
@@ -204,7 +204,7 @@
 
 ---
 
-## Version 1.0.41
+## Version 0.0.41
 
 ### Changes
 
@@ -212,7 +212,7 @@
 
 ---
 
-## Version 1.0.4
+## Version 0.0.4
 
 ### Changes
 
