@@ -1,123 +1,243 @@
-First version of JumpNDodge
+Changelog – JumpNDodge
+Version 1.3.1
+New Content
 
+Added a new Top Hat cosmetic
 
+Encoded .json save files to make cheating almost impossible
 
+Bug Fixes
 
-JumpNDodge
+Fixed button hitbox alignment in the settings menu
 
-A fast-paced arcade game where you dodge obstacles and try to survive as long as possible.
-Collect coins, unlock powers, and beat the highscores!
+Changed Mythic rarity color to orange
 
----------------------------------------
-1. Getting Started (Beginner Tutorial)
----------------------------------------
-- Controls:
-  • Jump: SPACE
-  • Move left: A or Left Arrow
-  • Move right: D or Right Arrow
-  • Active Powers (if equipped): Q and E
-  • Menu Navigation: Mouse or keys (ENTER, ESC, M)
+Various UI fixes
 
-- Goal:
-  Survive as long as possible, collect points, coins, and 1-Ups.
-  Avoid obstacles – every hit costs one life.
+Version 1.3.0 — The Echoing Update (Sound Update)
+Audio
 
-- First Tips:
-  • Jump early to clear obstacles safely.
-  • Coins are earned after each round, based on score & difficulty. (From Hard and higher you earn coins)
-  • Unlock new powers in the shop.
-  • Equip your favorite powers in the inventory.
+Added sound system to the game
 
----------------------------------------
-2. Game Modes & Difficulties
----------------------------------------
-There are 6 difficulty levels:
-  - Easy: Slow obstacles, lots of reaction time.
-  - Normal: Standard setting, a good starting point.
-  - Hard: Faster obstacles, coins are rewarded.
-  - Hardcore: Very fast obstacles, tough challenge.
-  - Impossible: Extremely hard, only for pros.
-  - Dynamic: Obstacles get faster over time.
+Support for custom sound packs
 
----------------------------------------
-3. Currency & Progression
----------------------------------------
-- Coins: Main currency. Earned from rounds (based on score & difficulty).
-- 1-Ups: Green boxes that give you an extra life.
-- Highscores: Your best score per difficulty is saved.
-- Stats: Total playtime, runs played, 1-Ups collected, etc.
+Includes a pre-made The Legend of Zelda themed sound pack
 
----------------------------------------
-4. Shop System (Lootbox Style)
----------------------------------------
-- Spend coins to roll:
-  • Single Spin: 50 Coins
-  • 10x Spin: 500 Coins (faster progression)
+Individual sound volume control and mute options
 
-- Powers come in 4 rarities:
-  • Common (gray)
-  • Rare (blue)
-  • Epic (purple)
-  • Legendary (gold)
+Exploit Fix
 
-- Duplicate powers refund 20% of the cost in coins.
+Fixed Recovery coin exploit
 
----------------------------------------
-5. Inventory (Loadout)
----------------------------------------
-- Shows all powers you own.
-- Equip powers to use them in-game.
-- Slots:
-  • Default: 1 slot
-  • With “Extra Slot” power: 2 slots
-- Use Q and E in-game to activate powers (shown in the corner).
+Coins are only rewarded if:
 
----------------------------------------
-6. Powers
----------------------------------------
-- Common:
-  • Recovery: +1 Coin when hit
+Survive at least 10s
 
-- Rare:
-  • Double Jump: Jump again in mid-air
-  • Slow Motion: Slows enemies for 2s (40s cooldown)
-  • Medic: +15% chance of 1-Ups
+15s on Hard mode
 
-- Epic:
-  • Shield: Blocks 1 hit every 40s
-  • Ghost Mode: 3–5s invincibility (40s cooldown)
-  • Score & Coin Booster: Removed
+No coins rewarded on Easy & Medium mode
 
-- Legendary:
-  • Nuke: Destroys all obstacles (20s cooldown)
-  • Extra Slot: +1 permanent power slot
-  • Time Freeze: 2s freeze + 5s slow motion (30s cooldown)
+Hotfix — Version 1.2.95
+Fixes
 
-- Coming Soon: Godlike/Mythic Powers
+Fixed missing Phoenix cooldown display
 
----------------------------------------
-7. Achievements
----------------------------------------
-- Played first round
-- Played 5 rounds
-- Reached 10 / 50 / 100 points
-- Started Hardcore / survived 30s
-- Collected 1-Ups (1x, 3x)
+Phoenix revive invincibility nerfed (4s → 2s)
 
----------------------------------------
-8. Admin Menu
----------------------------------------
-- Accessible via menu (password-protected)
-- For testing purposes (admins only)
+Version 1.2.95 — New Role & Bugfixes
+Roles
 
----------------------------------------
-9. Technical Notes
----------------------------------------
-- Controls also work with arrow keys.
-- Settings (language, volume, controls) are saved automatically.
-- Supported languages: German, English, Russian, Turkish, Swiss German.
-- Save data stored in JSON files (stats.json, highscores.json, powers.json).
+Added new rarity: Mythic (0.5%)
 
------------------------------------------
-Have fun playing!
------------------------------------------
+Added new Mythic role: Phoenix
+
+Passive revival on death
+
+Extra effects
+
+2-minute cooldown
+
+Cosmetic Shop
+
+Fixed cosmetic translations
+
+Added Crown cosmetic (2500 Coins)
+
+UI improvements
+
+Balancing
+
+Nuke: Destroys all nearby enemies for 4 seconds
+
+Time Stop: Now slows time after freeze
+
+Bug Fixes
+
+Translation issues fixed
+
+Reduced terminal debug spam
+
+Fixed text overflowing textboxes
+
+Version 1.2.9 — Fullscreen Beta & Language Expansion
+Custom Languages
+
+Expanded support: Custom-1.txt → Custom-10.txt
+
+Improved loading & error handling
+
+New Export Language button (saves to Desktop)
+
+UI & Settings
+
+Cleaner layout
+
+Improved Dark Mode behavior
+
+Fullscreen Mode (BETA)
+
+Reworked fullscreen scaling
+
+Fixed mouse position mapping
+
+Minor scaling issues may still occur
+
+Stability
+
+Improved display initialization
+
+Better fallback behavior
+
+Improved debug logging
+
+Version 1.2.8 — Language Expansion Update
+Custom Languages
+
+Added support for Custom-1.txt to Custom-3.txt
+
+key=value format for instant in-game usage
+
+Designed for fan translations and community localizations
+
+Statistics
+
+Reworked statistics UI
+
+Added new stats
+
+Cleaner overall design
+
+Bug Fixes & Improvements
+
+Fixed UI issues in Light/Dark Mode
+
+Improved resource_path reliability
+
+Fixed Daily Rewards and translation issues
+
+Better error handling for custom language files
+
+Version 1.2.6 — Cosmetic Trails Update
+New Content
+
+Added cosmetic trails:
+
+Fire Trail (may be buggy in menu)
+
+Ice Trail
+
+Shadow Trail
+
+Sparkle Trail
+
+Available in Inventory & Shop
+
+Localization
+
+Updated all languages (DE / EN / RU / TR / CH)
+
+Added translations for new trails
+
+Fixed minor text issues
+
+Core Fixes
+
+Cleaned up resource_path
+
+Removed duplicate paths
+
+Improved error handling
+
+Version 1.2.1
+Improvements
+
+Scroll support added to some menus
+
+Improved power descriptions
+
+Fixed light mode textures
+
+Version 1.2.0 — Daily Rewards & Dark Mode Update
+New Features
+
+Daily Rewards system (internet required, resets at 00:00 CET)
+
+Dark Mode toggle
+
+UI & Design
+
+Refreshed menu design
+
+Added loading screen for long actions
+
+Improvements
+
+Statistics menu reworked
+
+Achievements now reward coins
+
+Localization fixes
+
+Version 1.1.03
+Changes
+
+Renamed Jump'n'dodge → JumpNDodge in menu
+
+Minor fixes
+
+Version 1.1.0 — The Visual Update
+Visuals
+
+Full texture redesign
+
+Fixes & Features
+
+Fixed slow-motion glitch
+
+Added Inventory – All Tab
+
+Various minor improvements
+
+Version 1.0.41
+Changes
+
+Renamed Jump'n'dodge → JumpNDodge in main menu
+
+Version 1.0.4
+Changes
+
+Cleaned up main menu
+
+Added Help button
+
+Help System
+
+Instructions loaded from AppData text files
+
+Language-based files (README_DE.txt, README_EN.txt)
+
+Editable via any text editor
+
+Placeholder shown if language file is missing
+
+More languages planned
